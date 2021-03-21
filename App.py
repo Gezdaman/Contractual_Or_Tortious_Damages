@@ -1,27 +1,14 @@
-#Project Brainstorming
-#Now that you have an idea, visualize the end result:
+x = input("What was the price of the good/service/business purchased?")
+print("The price of the good/service/business purchased was " + str(x))
 
-#What does your program do? TELLS CLAIMANT WHETHER TO BRING CLAIM IN CONTRACT OR TORT
-#How will it work in a terminal? YES
-#Is it one player or two players? ONE
-#Make sure that it satisfies all of the project objectives.
+y = input("What was the represented value of the good/service/business purchased, according to the purchase contract?")
+print("The represented value of the good/service/business purchase was " + str(y))
 
-#Make a timeline for yourself and avoid the temptation to build things that aren’t required. 
-#Setting firm boundaries and deadlines will keep you on track and prevent scope creep.
+z = input("What is the actual value of the good/service/business purchased?")
+print("The actual value of the good/service/business purchased is " + str(z))
 
-#The following tasks will help you identify natural breakpoints.
+if x >= z:
+    print("You should claim on a tortious basis, pursuant to a pre-contractual misrepresentation(s).")
 
-#Properly scoping your project will greatly benefit you; 
-#scoping creates structure while requiring you to think through your entire project before you begin. 
-#You should start with stating the goals for your project, then gathering the data, 
-#and considering the analytical steps required. 
-#A proper project scope can be a great road map for your project, 
-#but keep in mind that some down-stream tasks may become dead ends which will require adjustment to the scope.
-
-zdflmsdfv
-sdafgdsfgzdfgvdfsgzdfb
-zdfgzdfgbzdfbdzbf
-\xfv\sdf\sdgf\sorted
-\sdgv\sdg\sadfg\sdafgdsfgzdfgvdfsgzdfbsg
-assertvasgvasfveragbvadfgb asg
-vdfsgv\sgv\sfdgv\s
+if y >= z:
+    print("You should claim on a contractual basis, pursuant to the representation or warranty made in the purchase contract.")
